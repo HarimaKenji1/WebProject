@@ -47,10 +47,6 @@ function PrintaTree(totalline) {
     }
 }
 window.onload = function () {
-    var el = document.getElementById('content');
-    var greeter = new Greeter(el);
-    greeter.start();
-    PrintaTree(5);
+    PrintaTree(6);
 };
-PrintaTree(5);
 //# sourceMappingURL=main.js.map
